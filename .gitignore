@@ -1,0 +1,22 @@
+# Data (never commit)
+data/
+*.csv
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Env files
+.env
+
+# OS / editor
+.DS_Store
+
