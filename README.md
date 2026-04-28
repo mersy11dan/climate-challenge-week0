@@ -1,6 +1,6 @@
 # Climate Challenge — Week 0 Starter
 
-A clean, submission-ready scaffold for the **10 Academy Climate Challenge**. This Week 0 repo focuses on environment setup, reproducible structure, and CI hygiene so you can move into Task 2 (EDA) and Task 3 (dashboard/modeling) without rework.
+This Week 0 repo focuses on environment setup, reproducible structure, and CI hygiene so you can move into Task 2 (EDA) and Task 3 (dashboard/modeling) without rework.
 
 ## Project structure
 
