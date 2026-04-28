@@ -61,6 +61,24 @@ python -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
+## Run the notebooks
+
+1. Place the raw CSV files in `data/` (these are ignored by Git):
+
+- `data/ethiopia.csv`
+- `data/kenya.csv`
+- `data/sudan.csv`
+- `data/tanzania.csv`
+- `data/nigeria.csv`
+
+2. Start Jupyter:
+
+```powershell
+jupyter notebook
+```
+
+3. Open and run the notebooks in `notebooks/` (Task 2 EDA and Task 3 comparison).
+
 ## Quick local “CI in spirit” checks
 
 These checks mirror what the GitHub Actions workflow verifies.
@@ -69,6 +87,14 @@ These checks mirror what the GitHub Actions workflow verifies.
 python --version
 python -c "import pandas as pd; import numpy as np; print('pandas', pd.__version__); print('numpy', np.__version__)"
 pytest -q
+```
+
+## Run the dashboard (optional)
+
+The Streamlit app reads the cleaned CSV outputs (created by the Task 2 notebooks) from `data/`:
+
+```powershell
+streamlit run app/main.py
 ```
 
 ## Keep data out of GitHub
