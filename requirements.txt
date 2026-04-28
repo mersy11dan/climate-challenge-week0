@@ -4,8 +4,10 @@ matplotlib
 seaborn
 scipy
 scikit-learn
+plotly
+nbformat
+ipykernel
 jupyter
 notebook
 streamlit
 pytest
-

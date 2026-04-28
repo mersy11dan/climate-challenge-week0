@@ -29,3 +29,6 @@ jobs:
       - name: Smoke import
         run: python -c "import pandas as pd; import numpy as np; print('pandas', pd.__version__); print('numpy', np.__version__)"
 
+      - name: Run tests
+        run: pytest -q
+
